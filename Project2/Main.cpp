@@ -6,7 +6,7 @@
 #include "Cmath.h"
 #include "lodepng.h"
 
-unsigned width = 500;
+unsigned width = 1000;
 float scale = 8;
 unsigned iter = 10;
 float strength = 100;
@@ -15,7 +15,7 @@ float range = 1000;
 float R_it = 0.0f;
 float Im_it = 0.0f;
 
-const unsigned int threads = 100;
+const unsigned int threads = 500;
 
 std::vector<unsigned char> image;
 
